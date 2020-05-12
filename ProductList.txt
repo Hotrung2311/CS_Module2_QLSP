@@ -1,0 +1,10 @@
+Laptop, 21605, Macbook Air 13 128GB MQD32SA/A (2017), 21990000, https://fptshop.com.vn/may-tinh-xach-tay/macbook-air-13-128gb-mqd32saa
+Laptop, 33911, Macbook Air 13 2020 1.1GHz Core i3/8GB/256GB, 28990000, https://fptshop.com.vn/may-tinh-xach-tay/macbook-air-13-2020-1-1ghz-core-i3-8gb-256gb
+Laptop, 28278, Macbook Pro 13 Touch Bar i5 1.4GHz/8G/128GB (2019), 34490000, https://fptshop.com.vn/may-tinh-xach-tay/macbook-pro-13-touch-bar-i5-1-4-ghz-8g-128gb-2019
+Laptop, 28277, Macbook Air 13 256GB 2019, 34990000, https://fptshop.com.vn/may-tinh-xach-tay/macbook-air-13-256gb-2019
+Laptop, 33912, Macbook Air 13 2020 1.1GHz Core i5/8GB/512GB, 34990000, https://fptshop.com.vn/may-tinh-xach-tay/macbook-air-13-2020-1-1ghz-core-i5-8gb-512gb
+Laptop, 28279, Macbook Pro 13 Touch Bar i5 1.4GHz/8G/256GB (2019), 39990000, https://fptshop.com.vn/may-tinh-xach-tay/macbook-pro-13-touch-bar-i5-1-4-ghz-8g-256gb-2019
+Laptop, 28115, Macbook Pro 13 Touch Bar i5 2.4GHz/8G/256GB (2019), 44490000, https://fptshop.com.vn/may-tinh-xach-tay/macbook-pro-13-touch-bar-i5-8g-256gb-2019
+Laptop, 28116, Macbook Pro 13 Touch Bar i5 2.4GHz/8G/512GB (2019), 51990000, https://fptshop.com.vn/may-tinh-xach-tay/macbook-pro-13-touch-bar-i5-8g-512gb-2019
+Laptop, 29946, MacBook Pro 16 Touch Bar 2.6GHz Core&#160;i7/16GB/ 512GB SSD/ Radeon Pro 5300M, 59990000, https://fptshop.com.vn/may-tinh-xach-tay/macbook-pro-16-touch-bar-26ghz-core-i7
+Laptop, 29947, MacBook Pro 16 Touch Bar 2.3GHz Core&#160;i9/16GB/1TB SSD/ Radeon Pro 5500M, 69990000, https://fptshop.com.vn/may-tinh-xach-tay/macbook-pro-16-touch-bar-23ghz-core-i9

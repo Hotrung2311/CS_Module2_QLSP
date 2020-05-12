@@ -37,6 +37,7 @@ public class SmartPhoneCrawler implements Runnable{
 
             // close scanner
             scanner.close();
+
 //            System.out.println(content);
 
             // remove all new line
@@ -88,11 +89,11 @@ public class SmartPhoneCrawler implements Runnable{
         }
     }
 }
-//class testSmartPhoneCrawler{
-//    public static void main(String[] args) {
-//        SmartPhoneCrawler a = new SmartPhoneCrawler();
-//        Thread t = new Thread(a);
-//        t.start();
-//    }
-//}
+class testSmartPhoneCrawler{
+    public static void main(String[] args) {
+        SmartPhoneCrawler a = new SmartPhoneCrawler();
+        Thread t = new Thread(a);
+        t.start();
+    }
+}
 

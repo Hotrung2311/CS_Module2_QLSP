@@ -21,6 +21,7 @@ public class Client {
         System.out.println("4. Delete product");
         System.out.println("5. Sort products list");
         System.out.println("6. Find product");
+        System.out.println("0. Exit");
         System.out.println("-------------------------------------------------------------------------");
         System.out.print("Your choose: ");
         Scanner input = new Scanner(System.in);
@@ -45,6 +46,8 @@ public class Client {
             case "6":
                 System.out.println("Show all products");
                 break;
+            case "0":
+                System.out.println("Exit");
             default:
                 System.out.println("Wrong input, please input again !");
         }
