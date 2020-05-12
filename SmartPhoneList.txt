@@ -1,0 +1,19 @@
+SmartPhone, 28997, iPhone 11 Pro Max 64GB, 29990000, https://fptshop.com.vn/dien-thoai/iphone-11-pro-max-64gb
+SmartPhone, 28998, iPhone 11 Pro Max 256GB, 35990000, https://fptshop.com.vn/dien-thoai/iphone-11-pro-max-256gb
+SmartPhone, 28999, iPhone 11 Pro Max 512GB, 43990000, https://fptshop.com.vn/dien-thoai/iphone-11-pro-max-512gb
+SmartPhone, 28994, iPhone 11 Pro 64GB, 27990000, https://fptshop.com.vn/dien-thoai/iphone-11-pro-64gb
+SmartPhone, 28995, iPhone 11 Pro 256GB, 34190000, https://fptshop.com.vn/dien-thoai/iphone-11-pro-256gb
+SmartPhone, 28996, iPhone 11 Pro 512GB, 40190000, https://fptshop.com.vn/dien-thoai/iphone-11-pro-512gb
+SmartPhone, 28991, iPhone 11 64GB, 19990000, https://fptshop.com.vn/dien-thoai/iphone-11-64gb
+SmartPhone, 28992, iPhone 11 128GB, 23690000, https://fptshop.com.vn/dien-thoai/iphone-11-128gb
+SmartPhone, 28993, iPhone 11 256GB, 25690000, https://fptshop.com.vn/dien-thoai/iphone-11-256gb
+SmartPhone, 25219, iPhone Xs Max 64GB, 23990000, https://fptshop.com.vn/dien-thoai/iphone-xs-max-64gb
+SmartPhone, 25220, iPhone Xs Max 256GB, 32990000, https://fptshop.com.vn/dien-thoai/iphone-xs-max-256gb
+SmartPhone, 25221, iPhone XR 64GB, 15990000, https://fptshop.com.vn/dien-thoai/iphone-xr-64gb
+SmartPhone, 22037, iPhone 8 Plus 64GB, 14490000, https://fptshop.com.vn/dien-thoai/iphone-8-plus-64gb
+SmartPhone, 33074, iPhone 8 Plus 128GB, 15990000, https://fptshop.com.vn/dien-thoai/iphone-8-plus-128gb
+SmartPhone, 10051, iPhone 7 Plus 32GB, 9990000, https://fptshop.com.vn/dien-thoai/iphone-7-plus
+SmartPhone, 8724, iPhone 7 32GB, 7990000, https://fptshop.com.vn/dien-thoai/iphone-7
+SmartPhone, 19935, iPhone 6s Plus 32GB, 7990000, https://fptshop.com.vn/dien-thoai/iphone-6s-plus-32gb
+SmartPhone, 9043, iPhone 6s Plus 128GB, 8490000, https://fptshop.com.vn/dien-thoai/iphone-6s-plus-128gb
+SmartPhone, 32675, iPhone SE (2020) 64GB, 12990000, https://fptshop.com.vn/dien-thoai/iphone-se-2
