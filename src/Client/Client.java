@@ -14,6 +14,7 @@ public class Client {
 
     }
     public void menu(){
+        System.out.println("");
         System.out.println("------*** Menu ***------");
         System.out.println("1. Show all products");
         System.out.println("2. Add new product");
@@ -29,9 +30,11 @@ public class Client {
         switch (choose){
             case "1":
 //                System.out.println("Show all products");
+                // Show all products
                 productManager.showAllProducts();
                 break;
             case "2":
+
                 System.out.println("Show all products");
                 break;
             case "3":
@@ -47,7 +50,7 @@ public class Client {
                 System.out.println("Show all products");
                 break;
             case "0":
-                System.out.println("Exit");
+                System.exit(0);
             default:
                 System.out.println("Wrong input, please input again !");
         }
