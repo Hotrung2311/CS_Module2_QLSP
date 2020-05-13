@@ -16,14 +16,14 @@ import java.util.Set;
 public class Storage {
     public ArrayList<Product> productsList = new ArrayList();
 
-    private boolean checkId(String[] arr, String id){
+    private boolean checkId(String[] arr, String id) {
         boolean result = false;
-        for (int i = 0 ; i< arr.length; i++){
-            if ( id.equals(arr[i])){
+        for (int i = 0; i < arr.length; i++) {
+            if (id.equals(arr[i])) {
                 result = true;
             }
         }
-        return  result;
+        return result;
     }
 
     public Storage() throws InterruptedException, IOException {
@@ -36,27 +36,33 @@ public class Storage {
         if (line == null) {
             System.out.println("File rỗng !");
             productsList = productCrawler.productCrawList;
-        }else {
+        } else {
             while (line != null) {
                 Product a = new Product();
                 String[] data = line.split(", ");
 
-                switch (data[0]) {
-                    case "Laptop":
-                        a.setCategory(data[0]);
-                        a.setId(data[1]);
-                        a.setName(data[2]);
-                        a.setPrice(Integer.parseInt(data[3]));
-                        a.setDescription(data[4]);
-                        break;
-                    case "SmartPhone":
-                        a.setCategory(data[0]);
-                        a.setId(data[1]);
-                        a.setName(data[2]);
-                        a.setPrice(Integer.parseInt(data[3]));
-                        a.setDescription(data[4]);
-                        break;
-                }
+                a.setCategory(data[0]);
+                a.setId(data[1]);
+                a.setName(data[2]);
+                a.setPrice(Integer.parseInt(data[3]));
+                a.setDescription(data[4]);
+
+//                switch (data[0]) {
+//                    case "Laptop":
+//                        a.setCategory(data[0]);
+//                        a.setId(data[1]);
+//                        a.setName(data[2]);
+//                        a.setPrice(Integer.parseInt(data[3]));
+//                        a.setDescription(data[4]);
+//                        break;
+//                    case "SmartPhone":
+//                        a.setCategory(data[0]);
+//                        a.setId(data[1]);
+//                        a.setName(data[2]);
+//                        a.setPrice(Integer.parseInt(data[3]));
+//                        a.setDescription(data[4]);
+//                        break;
+//                }
                 productsList.add(a);
                 line = bufReader.readLine();
             }
@@ -77,8 +83,7 @@ public class Storage {
         }
 
 
-
-        }
+    }
 
 //        while (line != null) {
 //            Product a = new Product();
