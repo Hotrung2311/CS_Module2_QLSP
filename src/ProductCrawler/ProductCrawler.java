@@ -5,8 +5,10 @@ import Product.Product;
 import java.util.ArrayList;
 
 public class ProductCrawler {
-//    private static final ProductCrawler instance = new ProductCrawler();
+    private static volatile ProductCrawler instance;
+
     public ArrayList<Product> productCrawList = new ArrayList<>();
+
     private ProductCrawler() throws InterruptedException {
         LaptopCrawler ltCrawler = new LaptopCrawler();
         SmartPhoneCrawler smCrawler = new SmartPhoneCrawler();
@@ -23,9 +25,13 @@ public class ProductCrawler {
         productCrawList.addAll(ltCrawler.ltList);
         productCrawList.addAll(smCrawler.smList);
     }
-//    public static ProductCrawler getInstance(){
-//        return instance;
-//    }
+    public static ProductCrawler getInstance() throws InterruptedException {
+        if (instance == null){
+//            instance = new ProductCrawler();
+            instance = new ProductCrawler();
+        }
+        return instance;
+    }
 }
 //class testProductCrawler{
 //    public static void main(String[] args) throws InterruptedException {

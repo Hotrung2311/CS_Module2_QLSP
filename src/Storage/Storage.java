@@ -27,13 +27,11 @@ public class Storage {
     }
 
     public Storage() throws InterruptedException, IOException {
-
-
-
         BufferedReader bufReader = new BufferedReader(new FileReader("ProductList.txt"));
         String line = bufReader.readLine();
 
-        ProductCrawler productCrawler = new ProductCrawler();
+        ProductCrawler productCrawler = ProductCrawler.getInstance();
+//        ProductCrawler productCrawler = new ProductCrawler();
 
         if (line == null) {
             System.out.println("File rỗng !");
@@ -63,6 +61,7 @@ public class Storage {
                 line = bufReader.readLine();
             }
 
+            // Thêm khi file product đã có sản phẩm
 //            String[] existId = new String[productsList.size()];
 //            for (int i = 0; i < productsList.size(); i++){
 //                existId[i] = productsList.get(i).getId();

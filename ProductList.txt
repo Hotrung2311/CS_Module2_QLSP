@@ -26,4 +26,4 @@ SmartPhone, 10051, iPhone 7 Plus 32GB, 9990000, https://fptshop.com.vn/dien-thoa
 SmartPhone, 8724, iPhone 7 32GB, 7990000, https://fptshop.com.vn/dien-thoai/iphone-7
 SmartPhone, 19935, iPhone 6s Plus 32GB, 7990000, https://fptshop.com.vn/dien-thoai/iphone-6s-plus-32gb
 SmartPhone, 9043, iPhone 6s Plus 128GB, 8490000, https://fptshop.com.vn/dien-thoai/iphone-6s-plus-128gb
-SmartPhone, 32675, iPhone SE (2020) 64GB, 12990000, https://fptshop.com.vn/dien-thoai/iphone-se-2
+null, null, null, 0, null
