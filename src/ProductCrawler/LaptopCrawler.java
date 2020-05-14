@@ -87,11 +87,4 @@ public class LaptopCrawler implements Runnable{
         }
     }
 }
-//class testLaptopCrawler{
-//    public static void main(String[] args) {
-//        LaptopCrawler a = new LaptopCrawler();
-//        Thread t = new Thread(a);
-//        t.start();
-//    }
-//}
 

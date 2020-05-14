@@ -89,11 +89,4 @@ public class SmartPhoneCrawler implements Runnable{
         }
     }
 }
-class testSmartPhoneCrawler{
-    public static void main(String[] args) {
-        SmartPhoneCrawler a = new SmartPhoneCrawler();
-        Thread t = new Thread(a);
-        t.start();
-    }
-}
 

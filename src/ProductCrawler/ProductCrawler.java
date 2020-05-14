@@ -33,11 +33,3 @@ public class ProductCrawler {
         return instance;
     }
 }
-//class testProductCrawler{
-//    public static void main(String[] args) throws InterruptedException {
-//        ProductCrawler pdc = new ProductCrawler();
-//        for (int i =0; i < pdc.productCrawList.size(); i++){
-//            System.out.println(pdc.productCrawList.get(i).toString());
-//        }
-//    }
-//}

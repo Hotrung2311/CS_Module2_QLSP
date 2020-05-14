@@ -72,12 +72,3 @@ public class Storage {
 
     }
 }
-
-//class testStorage{
-//    public static void main(String[] args) throws IOException, InterruptedException {
-//        Storage st = new Storage();
-//        for (int i = 0; i < st.productsList.size(); i++){
-//            System.out.println(st.productsList.get(i).toString());
-//        }
-//    }
-//}
