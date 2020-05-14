@@ -27,7 +27,7 @@ public class Storage {
     }
 
     public Storage() throws InterruptedException, IOException {
-        BufferedReader bufReader = new BufferedReader(new FileReader("ProductList.txt"));
+        BufferedReader bufReader = new BufferedReader(new FileReader("D:\\CodeGym\\Module2\\Week6\\IntelliJ\\CS_QLSP\\ProductList.txt"));
         String line = bufReader.readLine();
 
         ProductCrawler productCrawler = ProductCrawler.getInstance();
@@ -66,50 +66,11 @@ public class Storage {
                 productsList.add(a);
                 line = bufReader.readLine();
             }
-
-            // Thêm khi file product đã có sản phẩm
-//            String[] existId = new String[productsList.size()];
-//            for (int i = 0; i < productsList.size(); i++){
-//                existId[i] = productsList.get(i).getId();
-//            }
-//
-//            for (int i = 0; i < productCrawler.productCrawList.size(); i++) {
-//                if(!checkId(existId, productCrawler.productCrawList.get(i).getId())){
-//                    productsList.add(productCrawler.productCrawList.get(i));
-//                }
-//            }
-
             bufReader.close();
         }
 
 
     }
-
-//        while (line != null) {
-//            Product a = new Product();
-//            String[] data = line.split(", ");
-//
-//            switch (data[0]) {
-//                case "Laptop":
-//                    a.setCategory(data[0]);
-//                    a.setId(data[1]);
-//                    a.setName(data[2]);
-//                    a.setPrice(Integer.parseInt(data[3]));
-//                    a.setDescription(data[4]);
-//                    break;
-//                case "SmartPhone":
-//                    a.setCategory(data[0]);
-//                    a.setId(data[1]);
-//                    a.setName(data[2]);
-//                    a.setPrice(Integer.parseInt(data[3]));
-//                    a.setDescription(data[4]);
-//                    break;
-//            }
-//            productsList.add(a);
-//            line = bufReader.readLine();
-//        }
-//        bufReader.close();
-//    }
 }
 
 //class testStorage{
