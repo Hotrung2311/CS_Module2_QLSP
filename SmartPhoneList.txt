@@ -11,7 +11,6 @@ SmartPhone, 25219, iPhone Xs Max 64GB, 23990000, https://fptshop.com.vn/dien-tho
 SmartPhone, 25220, iPhone Xs Max 256GB, 32990000, https://fptshop.com.vn/dien-thoai/iphone-xs-max-256gb
 SmartPhone, 25221, iPhone XR 64GB, 15990000, https://fptshop.com.vn/dien-thoai/iphone-xr-64gb
 SmartPhone, 22037, iPhone 8 Plus 64GB, 14490000, https://fptshop.com.vn/dien-thoai/iphone-8-plus-64gb
-SmartPhone, 33074, iPhone 8 Plus 128GB, 15990000, https://fptshop.com.vn/dien-thoai/iphone-8-plus-128gb
 SmartPhone, 10051, iPhone 7 Plus 32GB, 9990000, https://fptshop.com.vn/dien-thoai/iphone-7-plus
 SmartPhone, 8724, iPhone 7 32GB, 7990000, https://fptshop.com.vn/dien-thoai/iphone-7
 SmartPhone, 19935, iPhone 6s Plus 32GB, 7990000, https://fptshop.com.vn/dien-thoai/iphone-6s-plus-32gb

@@ -157,13 +157,11 @@ public class Client {
                 System.out.print("Input product id: ");
                 String addId = input.next();
                 customer.addCart(addId);
-                System.out.println("Added product to cart !");
                 break;
             case "3":
                 System.out.print("Input product id: ");
                 String removeId = input.next();
                 customer.removeCart(removeId);
-                System.out.println("Removed product from cart !");
                 break;
             case "4":
                 customer.showProductsInCart();

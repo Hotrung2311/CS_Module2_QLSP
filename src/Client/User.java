@@ -16,10 +16,6 @@ public class User {
         this.cart = new ArrayList<>();
     }
 
-    public void customerMenu(){
-        
-    }
-
     public void showpaidProducts() {
         if (this.paidProduct.size() > 0) {
             for (int i = 0; i < this.paidProduct.size(); i++) {
@@ -43,9 +39,14 @@ public class User {
     }
 
     public void removeCart(String id){
-        for (int i = 0; i < this.cart.size(); i++){
-            if (this.cart.get(i).getId().equals(id)){
-                this.cart.remove(i);
+        if (this.cart.size() < 1){
+            System.out.println("You don't have any products in cart !");
+        }else {
+            for (int i = 0; i < this.cart.size(); i++) {
+                if (this.cart.get(i).getId().equals(id)) {
+                    this.cart.remove(i);
+                    System.out.println("Removed product from cart !");
+                }
             }
         }
     }
@@ -54,13 +55,19 @@ public class User {
         for (int i = 0; i < this.currentProductList.size(); i++){
             if (id.equals(this.currentProductList.get(i).getId())){
                 this.cart.add(this.currentProductList.get(i));
+                System.out.println("Added product to cart !");
             }
         }
     }
 
     public void pay() {
-        this.paidProduct.addAll(this.cart);
-        this.cart.clear();
+        if (this.cart.size()>0){
+            this.paidProduct.addAll(this.cart);
+            this.cart.clear();
+        }else {
+            System.out.println("Your cart is empty, choose at least 1 product");
+        }
+
     }
 
     public void sort(boolean type) {     // return về mảng sản phẩm
